@@ -1,0 +1,119 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif; 
+    background-color: #DDDDDD; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    margin-top: 200px;
+}
+
+.inp-center {
+
+    width: 5rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: -3rem;
+     color: #45474B; 
+    font-size: 1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+
+}
+.inp-center:hover {
+    transform: scale(1.5);
+    
+}
+
+
+h1 {
+    font-size: 2.5rem; 
+    color: #222831; 
+    text-align: center; 
+    letter-spacing: 0.4rem; 
+}
+
+
+section {
+  
+    flex-direction: row; 
+    align-items: center; 
+    margin-bottom: 3rem; 
+   
+}
+
+section input {
+    width: 55rem; 
+    border: none; 
+    padding: 1rem; 
+    border-radius: 1.5rem; 
+    margin-bottom: -2.5rem; 
+    color: #a5a9b1; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+}
+
+section button {
+    padding: 0.8rem 1.2rem; 
+    border: none; 
+    border-radius: #45474b;
+    background-color: transparent; 
+    color: #F5F7F8; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+.resultados-pesquisa {
+    width: 60rem; 
+    height: 46vh; 
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem; 
+}
+
+.item-resultado {
+    background: #FFFFFF; 
+    border-radius: 0.6rem; 
+    padding: 1rem;
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem; 
+    color: #222831; 
+}
+
+
+.item-resultado a {
+    text-decoration: none; 
+    color: #30475E; 
+}
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+
+.descricao-meta {
+    color: #45474B; 
+    margin: 0.5rem 0; 
+}
+
+footer {
+    background-color: #f9fafb; 
+    color: #414346; 
+    text-align: center;
+    padding: 0; 
+    width: 100%; 
+    position: relative;
+    bottom: 0; 
+    font-size: 1rem; 
+}
