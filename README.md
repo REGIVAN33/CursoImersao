@@ -1,4 +1,5 @@
-# cursoImersao
+# cursoImersao 
+https://curso-imersao-3mer.vercel.app/
 
 # Imersão Dev Alura com Google Gemini - Meu Projeto
 
